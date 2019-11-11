@@ -45,7 +45,7 @@
           <!-- bonus -->
           <div class="container">
             <h2 class="display-5 text-center">Hot Promo!</h2>
-            <img id="bonus" src="img/hasan/bonus.jpeg" style="width: 100%;height: 250px;margin-bottom: 110px; position: relative;">
+            <img id="data" onmousemove="myFunction(e)" onmouseout="clearCoor()" src="img/hasan/bonus.jpeg" style="width: 100%;height: 250px;margin-bottom: 110px; position: relative;">
           </div>
           <div class="row">
             <div class="col-sm-5"></div>
@@ -60,7 +60,7 @@
           <div class="team row">
               <div class="col-md-3 col-12 text-center">
                 <div class="card-img-top">
-                  <img id="pik1" src="img/hasan/gambar1.jpg" style="height: 250px;width: 250px;position: relative;" alt="member_1" class="img-fluid border-radius p-4">
+                  <img id="coba" onmousemove="myData(event)" onmouseout="clearC()" src="img/hasan/gambar1.jpg" style="height: 250px;width: 250px;position: relative;" alt="member_1" class="img-fluid border-radius p-4">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">IWATA Spray Gun</h5>
@@ -295,5 +295,28 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/life.js"></script>
+        <script>
+        function myFunction(e) {
+          var x = e.clientX;
+          var y = e.clientY;
+          var coor = "Coordinates: (" + 20 + "," + 40 + ")";
+          document.getElementById("data").onmousemove=myFunction(e) = coor;
+
+
+        }
+
+        function clearCoor() {
+        }
+
+        function myData(a) {
+          var x = a.clientX;
+          var y = a.clientY;
+          var coor = "Coordinates: (" + x + "," + y + ")";
+
+        }
+
+        function clearC() {
+        }
+        </script>
     </body>
 </html>

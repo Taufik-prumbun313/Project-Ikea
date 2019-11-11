@@ -14,4 +14,22 @@ $(document).ready(function(){
 	$("#3").mouseenter(function(){
 		$("#fa3").animate({widht:"toggle"},"slow");
 	})
+	// FOOTER
+	$(document).mousemove(function(a){
+	$("#bonus").css({
+		'left': -a.pageX / 50,
+		'top': -a.pageY / 100 + 20
+	});
+	});
+
+	$(document).mousemove(function(x){
+	$("#pik1").css({
+		'left': -x.pageX / 50,
+		'top': -x.pageY / 100 + 20
+	});
+	});
+
+
+
+
 });

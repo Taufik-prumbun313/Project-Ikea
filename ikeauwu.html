@@ -16,12 +16,11 @@
     </head>
     <body>
         <header>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light">
             <img src="img/hasan/ikea.png" style="height: 70px;width: 100px;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -46,8 +45,7 @@
           <!-- bonus -->
           <div class="container">
             <h2 class="display-5 text-center">Hot Promo!</h2>
-            <div class="jumbotron jumbotron-fluid" style="background-image: url(img/hasan/bonus.jpeg);width: 100%;height: 250px;">
-            </div>
+            <img id="data" onmousemove="myFunction(e)" onmouseout="clearCoor()" src="img/hasan/bonus.jpeg" style="width: 100%;height: 250px;margin-bottom: 110px; position: relative;">
           </div>
           <div class="row">
             <div class="col-sm-5"></div>
@@ -58,8 +56,191 @@
             <div class="col-sm-4"></div>
           </div>
           <hr>
-
-         
+          <!-- produk -->
+          <div class="team row">
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="coba" onmousemove="myData(event)" onmouseout="clearC()" src="img/hasan/gambar1.jpg" style="height: 250px;width: 250px;position: relative;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">IWATA Spray Gun</h5>
+                  <p style="text-decoration: line-through;">Rp 2.330.000</p>
+                  <h3>Rp 1.310.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="pik2" src="img/hasan/gambar2.jpg" style="height: 250px;width: 250px;position: relative;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                 <h5 class="card-title">Hand Spray Gun</h5>
+                  <p style="text-decoration: line-through;">Rp 2.230.000</p>
+                  <h3>Rp 1.512.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="pik3" src="img/hasan/gambar3.jpg" style="height: 250px;width: 250px;position: relative;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Spray Gun Electrik</h5>
+                  <p style="text-decoration: line-through;">Rp 3.330.000</p>
+                  <h3>Rp 1.120.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="pik4" src="img/hasan/gambar4.jpg" style="height: 250px;width: 250px;position: relative;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Xander Kuas Roll</h5>
+                  <p style="text-decoration: line-through;">Rp 30.000</p>
+                  <h3>Rp 12.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+          </div>
+          <div class="team row">
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="pik5" src="img/hasan/gambar5.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Dorma Automatic Door</h5>
+                  <p style="text-decoration: line-through;">Rp 18.330.000</p>
+                  <h3>Rp 15.310.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="pik6" src="img/hasan/gambar6.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                 <h5 class="card-title">Wasser Double Bowl Sink</h5>
+                  <p style="text-decoration: line-through;">Rp 2.630.000</p>
+                  <h3>Rp 1.612.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img id="pik7" src="img/hasan/gambar7.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Kenmaster Siku Rak</h5>
+                  <p style="text-decoration: line-through;">Rp 7.000</p>
+                  <h3>Rp 4.500</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div id="pik8" class="card-img-top">
+                  <img src="img/hasan/gambar8.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Kenmaster Sendok Semen</h5>
+                  <p style="text-decoration: line-through;">Rp 24.000</p>
+                  <h3>Rp 14.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+          </div>
+          <div class="team row">
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar1.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">IWATA Spray Gun</h5>
+                  <p style="text-decoration: line-through;">Rp 2.330.000</p>
+                  <h3>Rp 1.310.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar2.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                 <h5 class="card-title">Hand Spray Gun</h5>
+                  <p style="text-decoration: line-through;">Rp 2.230.000</p>
+                  <h3>Rp 1.512.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar3.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Spray Gun Electrik</h5>
+                  <p style="text-decoration: line-through;">Rp 3.330.000</p>
+                  <h3>Rp 1.120.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar4.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Xander Kuas Roll</h5>
+                  <p style="text-decoration: line-through;">Rp 30.000</p>
+                  <h3>Rp 12.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+          </div>
+          <div class="team row">
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar5.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Dorma Automatic Door</h5>
+                  <p style="text-decoration: line-through;">Rp 18.330.000</p>
+                  <h3>Rp 15.310.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar6.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                 <h5 class="card-title">Wasser Double Bowl Sink</h5>
+                  <p style="text-decoration: line-through;">Rp 2.630.000</p>
+                  <h3>Rp 1.612.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar7.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Kenmaster Siku Rak</h5>
+                  <p style="text-decoration: line-through;">Rp 7.000</p>
+                  <h3>Rp 4.500</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 text-center">
+                <div class="card-img-top">
+                  <img src="img/hasan/gambar8.jpg" style="height: 250px;width: 250px;" alt="member_1" class="img-fluid border-radius p-4">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Kenmaster Sendok Semen</h5>
+                  <p style="text-decoration: line-through;">Rp 24.000</p>
+                  <h3>Rp 14.000</h3>
+                  <a href="#" class="card-link">Order</a>
+                </div>
+              </div>
+          </div>
         </main>
         <footer class="footer-distributed" style="color: black">
           <div class="footer-left">
@@ -114,5 +295,28 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/life.js"></script>
+        <script>
+        function myFunction(e) {
+          var x = e.clientX;
+          var y = e.clientY;
+          var coor = "Coordinates: (" + 20 + "," + 40 + ")";
+          document.getElementById("data").onmousemove=myFunction(e) = coor;
+
+
+        }
+
+        function clearCoor() {
+        }
+
+        function myData(a) {
+          var x = a.clientX;
+          var y = a.clientY;
+          var coor = "Coordinates: (" + x + "," + y + ")";
+
+        }
+
+        function clearC() {
+        }
+        </script>
     </body>
 </html>
